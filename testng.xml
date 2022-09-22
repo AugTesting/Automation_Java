@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testNG.D_WebTables"/>
+      <class name="testNG.LaunchBrowserinTestNG"/>
+      <class name="testNG.D_GMO_Online"/>
+      <class name="testNG.AlertsChecking"/>
+      <class name="testNG.DValidateWindowsHandling"/>
+      <class name="testNG.DMouseValidation"/>
+      <class name="testNG.D_DataDriven"/>
+      <class name="testNG.D_FileDownload"/>
+      <class name="testNG.DFrameValidation"/>
+      <class name="testNG.D_DropDown"/>
+      <class name="testNG.D_FileUpload"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
