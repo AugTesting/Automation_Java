@@ -1,121 +1,182 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-21T22:02:51 EDT" name="Default suite" finished-at="2022-09-21T22:03:55 EDT" duration-ms="63375">
+  <suite started-at="2022-10-01T17:56:16 EDT" name="Default suite" finished-at="2022-10-01T17:56:53 EDT" duration-ms="36906">
     <groups>
     </groups>
-    <test started-at="2022-09-21T22:02:51 EDT" name="Default test" finished-at="2022-09-21T22:03:55 EDT" duration-ms="63375">
-      <class name="testNG.AlertsChecking">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:02:51 EDT" name="beforeSuite" finished-at="2022-09-21T22:02:51 EDT" duration-ms="104" status="PASS">
+    <test started-at="2022-10-01T17:56:16 EDT" name="Default test" finished-at="2022-10-01T17:56:53 EDT" duration-ms="36906">
+      <class name="testNG.DMouseValidation">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNG.DMouseValidation@6eda5c9]" started-at="2022-10-01T17:56:16 EDT" name="beforeSuite" finished-at="2022-10-01T17:56:16 EDT" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:02:51 EDT" name="beforeTest" finished-at="2022-09-21T22:03:14 EDT" duration-ms="22815" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNG.DMouseValidation@6eda5c9]" started-at="2022-10-01T17:56:16 EDT" name="beforeTest" finished-at="2022-10-01T17:56:19 EDT" duration-ms="2895" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:14 EDT" name="beforeClass" finished-at="2022-09-21T22:03:14 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNG.DMouseValidation@6eda5c9]" started-at="2022-10-01T17:56:19 EDT" name="beforeClass" finished-at="2022-10-01T17:56:19 EDT" duration-ms="168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:15 EDT" name="beforeMethod" finished-at="2022-09-21T22:03:15 EDT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DMouseValidation@6eda5c9]" started-at="2022-10-01T17:56:19 EDT" name="beforeMethod" finished-at="2022-10-01T17:56:19 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="LaunchAlertsPage()[pri:-2, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:15 EDT" name="LaunchAlertsPage" finished-at="2022-09-21T22:03:41 EDT" duration-ms="26728" status="PASS">
+        <test-method signature="LaunchJQuery()[pri:-2, instance:testNG.DMouseValidation@6eda5c9]" started-at="2022-10-01T17:56:19 EDT" name="LaunchJQuery" finished-at="2022-10-01T17:56:20 EDT" duration-ms="680" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchAlertsPage -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:41 EDT" name="afterMethod" finished-at="2022-09-21T22:03:41 EDT" duration-ms="3" status="PASS">
+        </test-method> <!-- LaunchJQuery -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testNG.DMouseValidation@6eda5c9]" started-at="2022-10-01T17:56:20 EDT" name="afterMethod" finished-at="2022-10-01T17:56:20 EDT" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LaunchJQuery status=SUCCESS method=DMouseValidation.LaunchJQuery()[pri:-2, instance:testNG.DMouseValidation@6eda5c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:41 EDT" name="beforeMethod" finished-at="2022-09-21T22:03:41 EDT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DMouseValidation@6eda5c9]" started-at="2022-10-01T17:56:20 EDT" name="beforeMethod" finished-at="2022-10-01T17:56:20 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="SimpleAlert()[pri:-1, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:41 EDT" name="SimpleAlert" finished-at="2022-09-21T22:03:50 EDT" duration-ms="8150" status="PASS">
+        <test-method signature="ValidatdeRightClick()[pri:-1, instance:testNG.DMouseValidation@6eda5c9]" started-at="2022-10-01T17:56:20 EDT" name="ValidatdeRightClick" finished-at="2022-10-01T17:56:20 EDT" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SimpleAlert -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:50 EDT" name="afterMethod" finished-at="2022-09-21T22:03:50 EDT" duration-ms="1" status="PASS">
+        </test-method> <!-- ValidatdeRightClick -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testNG.DMouseValidation@6eda5c9]" started-at="2022-10-01T17:56:20 EDT" name="afterMethod" finished-at="2022-10-01T17:56:20 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidatdeRightClick status=SUCCESS method=DMouseValidation.ValidatdeRightClick()[pri:-1, instance:testNG.DMouseValidation@6eda5c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:50 EDT" name="beforeMethod" finished-at="2022-09-21T22:03:50 EDT" duration-ms="17" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DMouseValidation@6eda5c9]" started-at="2022-10-01T17:56:20 EDT" name="beforeMethod" finished-at="2022-10-01T17:56:20 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="ConfirmAlertBoxOk()[pri:0, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:50 EDT" name="ConfirmAlertBoxOk" finished-at="2022-09-21T22:03:51 EDT" duration-ms="1154" status="PASS">
+        <test-method signature="ValidateScrollAndDoubleClick()[pri:0, instance:testNG.DMouseValidation@6eda5c9]" started-at="2022-10-01T17:56:20 EDT" name="ValidateScrollAndDoubleClick" finished-at="2022-10-01T17:56:22 EDT" duration-ms="1333" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ConfirmAlertBoxOk -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:51 EDT" name="afterMethod" finished-at="2022-09-21T22:03:51 EDT" duration-ms="2" status="PASS">
+        </test-method> <!-- ValidateScrollAndDoubleClick -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testNG.DMouseValidation@6eda5c9]" started-at="2022-10-01T17:56:22 EDT" name="afterMethod" finished-at="2022-10-01T17:56:22 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateScrollAndDoubleClick status=SUCCESS method=DMouseValidation.ValidateScrollAndDoubleClick()[pri:0, instance:testNG.DMouseValidation@6eda5c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:51 EDT" name="beforeMethod" finished-at="2022-09-21T22:03:51 EDT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.DMouseValidation@6eda5c9]" started-at="2022-10-01T17:56:22 EDT" name="beforeMethod" finished-at="2022-10-01T17:56:22 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="ConfirmAlertBoxCancel()[pri:1, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:51 EDT" name="ConfirmAlertBoxCancel" finished-at="2022-09-21T22:03:52 EDT" duration-ms="777" status="PASS">
+        <test-method signature="ValidateDragAndDrop()[pri:1, instance:testNG.DMouseValidation@6eda5c9]" started-at="2022-10-01T17:56:22 EDT" name="ValidateDragAndDrop" finished-at="2022-10-01T17:56:52 EDT" duration-ms="30766" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#draggable"}
+  (Session info: chrome=106.0.5249.91)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DUVGQK7', ip: '192.168.2.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51053}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dc25094e9491b9a3ec234e13b5e5778a
+*** Element info: {Using=id, value=draggable}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#draggable"}
+  (Session info: chrome=106.0.5249.91)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-DUVGQK7', ip: '192.168.2.28', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.91, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51053}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dc25094e9491b9a3ec234e13b5e5778a
+*** Element info: {Using=id, value=draggable}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at testNG.DMouseValidation.ValidateDragAndDrop(DMouseValidation.java:76)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ConfirmAlertBoxCancel -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:52 EDT" name="afterMethod" finished-at="2022-09-21T22:03:52 EDT" duration-ms="0" status="PASS">
+        </test-method> <!-- ValidateDragAndDrop -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testNG.DMouseValidation@6eda5c9]" started-at="2022-10-01T17:56:52 EDT" name="afterMethod" finished-at="2022-10-01T17:56:53 EDT" duration-ms="287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidateDragAndDrop status=FAILURE method=DMouseValidation.ValidateDragAndDrop()[pri:1, instance:testNG.DMouseValidation@6eda5c9] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:52 EDT" name="beforeMethod" finished-at="2022-09-21T22:03:52 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="PromptAlertBoxOkYes()[pri:2, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:52 EDT" name="PromptAlertBoxOkYes" finished-at="2022-09-21T22:03:53 EDT" duration-ms="1337" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PromptAlertBoxOkYes -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:53 EDT" name="afterMethod" finished-at="2022-09-21T22:03:53 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:53 EDT" name="beforeMethod" finished-at="2022-09-21T22:03:53 EDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="PromptAlertBoxNo()[pri:3, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:53 EDT" name="PromptAlertBoxNo" finished-at="2022-09-21T22:03:54 EDT" duration-ms="942" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PromptAlertBoxNo -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:54 EDT" name="afterMethod" finished-at="2022-09-21T22:03:54 EDT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:54 EDT" name="beforeMethod" finished-at="2022-09-21T22:03:54 EDT" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="PromptAlertBoxCancel()[pri:4, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:54 EDT" name="PromptAlertBoxCancel" finished-at="2022-09-21T22:03:55 EDT" duration-ms="718" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PromptAlertBoxCancel -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:55 EDT" name="afterMethod" finished-at="2022-09-21T22:03:55 EDT" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:55 EDT" name="afterClass" finished-at="2022-09-21T22:03:55 EDT" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testNG.DMouseValidation@6eda5c9]" started-at="2022-10-01T17:56:53 EDT" name="afterClass" finished-at="2022-10-01T17:56:53 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:55 EDT" name="afterTest" finished-at="2022-09-21T22:03:55 EDT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNG.DMouseValidation@6eda5c9]" started-at="2022-10-01T17:56:53 EDT" name="afterTest" finished-at="2022-10-01T17:56:53 EDT" duration-ms="382" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testNG.AlertsChecking@7ea9e1e2]" started-at="2022-09-21T22:03:55 EDT" name="afterSuite" finished-at="2022-09-21T22:03:55 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testNG.DMouseValidation@6eda5c9]" started-at="2022-10-01T17:56:53 EDT" name="afterSuite" finished-at="2022-10-01T17:56:53 EDT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- testNG.AlertsChecking -->
+      </class> <!-- testNG.DMouseValidation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

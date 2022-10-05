@@ -16,6 +16,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
@@ -25,6 +26,7 @@ import org.testng.annotations.AfterSuite;
 public class DMouseValidation extends BaseLibrary{
   @Test(priority=-2)
   public void LaunchJQuery() {
+	  exttest=extreports.createTest(new Object() {}.getClass().getEnclosingMethod().getName());
 	  driver.get(objectprop.getProperty("MouseRightClickURL"));
 	  String JQueryPageTitle=driver.getTitle();
 	  System.out.println("JQueryPageTitle : "+JQueryPageTitle);
@@ -32,6 +34,7 @@ public class DMouseValidation extends BaseLibrary{
   }
   @Test(priority=-1)
   public void ValidatdeRightClick() {
+	  exttest=extreports.createTest(new Object() {}.getClass().getEnclosingMethod().getName());
 	  WebElement Element=driver.findElement(DPagesOfMouseOperations.MouseRightClick);	  
 	  Actions object= new Actions(driver);
 	  object.contextClick(Element).build().perform();
@@ -45,6 +48,7 @@ public class DMouseValidation extends BaseLibrary{
 }
   @Test(priority=0)
   public void ValidateScrollAndDoubleClick() {
+	  exttest=extreports.createTest(new Object() {}.getClass().getEnclosingMethod().getName());
 	  driver.get(objectprop.getProperty("MouseOperationDoubleClick"));
 	  JavascriptExecutor js=(JavascriptExecutor)driver;
 	//  js.executeScript("window.scrollBy(0,500)");
@@ -64,9 +68,10 @@ public class DMouseValidation extends BaseLibrary{
   }
   @Test(priority=1)
   public void ValidateDragAndDrop() {
+	  exttest=extreports.createTest(new Object() {}.getClass().getEnclosingMethod().getName());
 	  driver.navigate().to(objectprop.getProperty("MouseOperationDragAndDrop"));
 	  WebElement frameelement=driver.findElement(DPagesOfMouseOperations.MouseScrollToframe);
-	  driver.switchTo().frame(frameelement);
+	//  driver.switchTo().frame(frameelement);
 	  Actions ObjAct=new Actions(driver);
 	  WebElement dragelement=driver.findElement(DPagesOfMouseOperations.Draggable);
 	 // ObjAct.clickAndHold(dragelement).build().perform();
@@ -85,15 +90,19 @@ public class DMouseValidation extends BaseLibrary{
   }
 
   @AfterMethod
-  public void afterMethod() {
+  public void afterMethod(ITestResult result) {
+	  UpdatingResultInExtentReport(result);
   }
 
-  @BeforeClass
+ 
+@BeforeClass
   public void beforeClass() {
+	  StartExtentReports();
   }
 
   @AfterClass
   public void afterClass() {
+	  
   }
 
   @BeforeTest
@@ -103,10 +112,12 @@ public class DMouseValidation extends BaseLibrary{
 
   @AfterTest
   public void afterTest() {
-	//  driver.close();
+	FlushReport();
   }
 
-  @BeforeSuite
+
+
+@BeforeSuite
   public void beforeSuite() {
 	  try {
 		ReadPropertiesFile();
